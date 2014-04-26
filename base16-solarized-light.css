@@ -16,7 +16,7 @@ div#notebook, div.CodeMirror, div.output_area pre, div.output_wrapper, div.promp
 */
 
 /* GLOBALS */
-body {background-color: #fdf6e3;}
+body {background-color: #fdf6e3; background: url('http://subtlepatterns.com/patterns/subtle_white_feathers.png') repeat scroll 0% 0% transparent;}
 a {color: #268bd2;}
 
 /* INTRO PAGE */
@@ -28,6 +28,8 @@ a {color: #268bd2;}
 div#maintoolbar, div#header {display: none !important;}
 
 div#notebook {border-top: none;}
+
+div#notebook_panel {box-shadow: none;}
 
 div.input_prompt {color: #6c71c4;}
 div.output_prompt {color: #d33682;}
